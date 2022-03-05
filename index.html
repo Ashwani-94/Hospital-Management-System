@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>  
+    <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:900' rel='stylesheet' type='text/css'>
+
+</head>
+<body onload="preloaderstop()">
+    <div id="preloader"></div>
+    <nav id="navbar">
+        <div id="logo">
+            <a href="#">
+                <img src="images/logo_nav_1.png" alt="">
+                <span>AK &nbsp; HOSPITAL +</span>
+            </a>
+        </div>
+        <div id="nav-box">
+            <ul>
+                <li class="nav-item"><a href="#sec1">HOME</a></li>
+                <li class="nav-item"><a href="#">SERVICES <div class="arrow">></div></a>
+                <div class="sub-menu">
+                    <ul>
+                        <li onclick="appear1()"><a href="#sec3">Oxygen / Ventilator</a></li>
+                        <li onclick="appear2()"><a href="#sec3" onclick="appear2()">Vaccine Avilable</a></li>
+                        <li onclick="appear3()"><a href="#sec3">Plasma Avilable</a></li>
+                        <li onclick="appear4()"><a href="#sec3">Blood Avilable</a></li>
+                    </ul>
+                </div>
+                </li>
+                <li class="nav-item"><a href="#story">MYTH BUSTER</a></li>
+                <li class="nav-item"><a href="#sec5">ABOUT US</a></li>
+                <li class="nav-item"><a href="#footer">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="sec1">
+            <div class="sec1-item">
+                <h1>THE WORLD OF CARE</h1>
+                <p>Our team of over 7000 doctors giving you the best of modern healthcare to ensure you stay healthy, always</p>
+            </div>
+            <div class="sec1-btn">
+                <a href="#" id="sec1-btn1" class="btn" onclick="toogle1()">Read More...</a>
+                <div id="btn1-act">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe odio debitis exercitationem numquam dolores officiis sed optio totam laboriosam, illo quibusdam doloribus quo rerum tempora. Voluptatibus temporibus qui incidunt, impedit quam sapiente assumenda porro! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci maiores totam cupiditate eaque placeat unde. Ipsum maxime molestiae neque consectetur fuga architecto totam accusantium ducimus, sint, optio harum illo distinctio sed sequi laborum necessitatibus dignissimos sit beatae suscipit ratione iste assumenda. Rem sint error dolorum quae molestiae fuga. Minus, error! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, pariatur! Quam iure excepturi architecto nobis blanditiis porro earum beatae laboriosam.</p>
+                    <a href="#" class="btn" onclick="toogle1()">Close</a>
+                </div>
+                <a href="#" id="sec1-btn2" class="btn" onclick="toogle()">Register Fot Vaccination</a>
+                <div id="btn2-act">
+                    <h1>Register Fot Vaccination</h1>
+                    <div>
+                        <a target="_blank" href="https://selfregistration.cowin.gov.in/"><img src="https://www.mygov.in/sites/all/themes/mygov/images/covid/co-win.png" alt=""></a>
+                        <a target="_blank" href="https://www.aarogyasetu.gov.in/applink/"><img src="https://www.mygov.in/sites/all/themes/mygov/images/covid/aarogya_btn_img.png" alt=""></a>
+                    </div>
+                    <a href="#" class="btn" onclick="toogle()">Close</a>
+                </div>
+               
+            </div>
+    </section>
+    <section id="sec2">
+        <div id="sec2-1" class="sec2-item">
+            <img src="images/sec_2_1.png" alt="">
+            <h2>EMERGENCY CARE</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur magnam ipsam veritatis quae porro ab sequi, reiciendis debitis suscipit accusamus vel libero quis asperiores ullam, qui delectus quos quidem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia itaque suscipit enim quasi quos culpa harum ad consequuntur nulla, sequi quaerat exercitationem veniam voluptates velit sint, temporibus ipsam ullam libero!</p>
+        </div>
+        <div id="sec2-2" class="sec2-item">
+            <img src="images/sec_2_2.png" alt="">
+            <h2>OPENING HOURS</h2>
+            <div>
+                <ul>
+                    <li><pre>Monday - Friday        8.00 - 16.00</pre></li>
+                    <li><pre>Saturday                   9.30 - 15.30</pre></li>
+                    <li><pre>Sunday                     9.30 - 17.00</pre></li>
+                </ul>
+            </div>
+        </div>
+        <div id="sec2-3" class="sec2-item">
+            <img src="images/sec_2_3.png" alt="">
+            <h2>APPOINTMENT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est odit quos quia cupiditate necessitatibus, magni dolores eos temporibus, culpa rerum aspernatur mollitia quidem consectetur. Voluptate, consequatur reprehenderit! Ut, dolores eveniet.!</p>
+            <a onclick="toogle2()" href="#sec2" class="btn">Book Appointment</a>
+            <div id="book">
+                <div class="book-item">
+                    <h1>Book Appointment</h1>
+                    <form action="">
+                        <div class="form-item" id="form-1">
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-item" id="form-2">
+                            <label for="email"></label>
+                            <input type="text" name="email" id="email" placeholder="E-mail">
+                        </div>
+                        <div class="form-item" id="form-3">
+                            <label for="subject"></label>
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-item" id="form-4">
+                            <label for="message"></label>
+                            <textarea name="message" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+                        </div>
+                        <div class="formitem" id="form-5">
+                            <button onclick="sent()" class="btn">Send Message</button>
+                        </div>
+                        <div onclick="toogle2()" class="formitem" id="form-6">
+                            <button class="btn">Close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec3">
+        <div class="sec3-box">
+            <ul>
+                <li onclick="appear1()" id="ser2">
+                    <img src="images/sec_3_2.png" alt="">
+                    <h3>Oxygen / Ventilator</h3>
+                </li>
+                <li onclick="appear2()" id="ser3">
+                    <img src="images/sec_3_3.png" alt="">
+                    <h3>Vaccine Avilable</h3>
+                </li>
+                <li onclick="appear3()" id="ser4">
+                    <img src="images/sec_3_4.png" alt="">
+                    <h3>Plasma Avilable</h3>
+                </li>
+                <li onclick="appear4()" id="ser5">
+                    <img src="images/sec_3_5.png" alt="">
+                    <h3>Blood Avilable</h3>
+                </li>
+            </ul>
+            <div class="sec3-main">
+                <div id="main1" class="main-item">
+                    <h1 class="main-h1">Oxygen / Ventilator</h1>
+                    <h3 class="main-h3"><pre>Total Oxygen Level             50 tonnes</pre></h3>
+                    <h3 class="main-h3"><pre>Total Ventilator Avilable      69</pre></h3>
+                    <h3 class="main-h3" id="main1-h3">Supply Tank will come in 9hr with 20 tonnes oxygen</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Service/Block</th>
+                                <th>Block A</th>
+                                <th>Block B</th>
+                                <th>Block C</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Oxygen Level</td>
+                                <td>12tonnes</td>
+                                <td>16tonnes</td>
+                                <td>12tonnes</td>
+                            </tr>
+                            <tr>
+                                <td>Rate of Consumption</td>
+                                <td>500Kg/hr</td>
+                                <td>500Kg/hr</td>
+                                <td>400Kg/hr</td>
+                            </tr>
+                            <tr>
+                                <td>Time for which oxygen supply can be fulfilled</td>
+                                <td>24hr</td>
+                                <td>32hr</td>
+                                <td>30hr</td>
+                            </tr>
+                            <tr>
+                                <td>Total Patients</td>
+                                <td>223</td>
+                                <td>236</td>
+                                <td>176</td>
+                            </tr>
+                            <tr>
+                                <td>Patients on Ventilator</td>
+                                <td>156</td>
+                                <td>169</td>
+                                <td>130</td>
+                            </tr>
+                            <tr>
+                                <td>Patients on Ventilator and also Covid positive</td>
+                                <td>132</td>
+                                <td>147</td>
+                                <td>121</td>
+                            </tr>
+                            <tr>
+                                <td>Ventilator Avilable</td>
+                                <td>21</td>
+                                <td>34</td>
+                                <td>19</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="main2" class="main-item">
+                    <h1 class="main-h1">Vaccine Aviliability</h1>
+                    <h3 class="main-h3">Total Vaccines Avilable &nbsp; &nbsp; &nbsp; 29012</h3>
+                    <!-- covaxin covishield -->
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Vaccine</th>
+                                <th>Covaxin</th>
+                                <th>Covishield</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Avilable</td>
+                                <td>17010</td>
+                                <td>12002</td>
+                            </tr>
+                            <tr>
+                                <td>Total Person Vaccinated(atleast one dose)</td>
+                                <td>200107</td>
+                                <td>130657</td>
+                            </tr>
+                            <tr>
+                                <td>Person Vaccinated (Covid positive)</td>
+                                <td>46065</td>
+                                <td>64898</td>
+                            </tr>
+                            <tr>
+                                <td>Person Vaccinated (1st dose only)</td>
+                                <td>150105</td>
+                                <td>95657</td>
+                            </tr>
+                            <tr>
+                                <td>Person Fully Vaccinated</td>
+                                <td>50002</td>
+                                <td>35000</td>
+                            </tr>
+                            <tr>
+                                <td>Next Suply will be on</td>
+                                <td>10-05-2021</td>
+                                <td>8-05-2021</td>
+                            </tr>
+                            <tr>
+                                <td>Min.Age required for Vaccination</td>
+                                <td>18</td>
+                                <td>18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="main3" class="main-item">
+                    <h1 class="main-h1">Plasma Aviliability</h1>
+                    <h3 class="main-h3">Total Plasma Avilable &nbsp; &nbsp; &nbsp; 378L</h3>
+                    <h3 class="main-h3">No. of Plasma Donor Avilable &nbsp; &nbsp; &nbsp; 568</h3>
+                    <h3 class="main-h3">For Getting Plasma Please Book Appointment</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Blood Group</th>
+                                <th>O+</th>
+                                <th>A+</th>
+                                <th>B+</th>
+                                <th>AB+</th>
+                                <th>O-</th>
+                                <th>A-</th>
+                                <th>B-</th>
+                                <th>AB-</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Person Avilable</td>
+                                <td>123</td>
+                                <td>97</td>
+                                <td>109</td>
+                                <td>76</td>
+                                <td>26</td>
+                                <td>56</td>
+                                <td>47</td>
+                                <td>34</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Avilable</td>
+                                <td>65L</td>
+                                <td>58L</td>
+                                <td>69L</td>
+                                <td>54L</td>
+                                <td>21L</td>
+                                <td>44L</td>
+                                <td>41L</td>
+                                <td>26L</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Needed Per Day</td>
+                                <td>70L</td>
+                                <td>57L</td>
+                                <td>61L</td>
+                                <td>57L</td>
+                                <td>15L</td>
+                                <td>32L</td>
+                                <td>36L</td>
+                                <td>21L</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Donor Recovered (One Month Ago)</td>
+                                <td>29</td>
+                                <td>19</td>
+                                <td>39</td>
+                                <td>19</td>
+                                <td>6</td>
+                                <td>16</td>
+                                <td>0</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Donor Recovered (Two Month Ago)</td>
+                                <td>34</td>
+                                <td>34</td>
+                                <td>19</td>
+                                <td>16</td>
+                                <td>6</td>
+                                <td>12</td>
+                                <td>24</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Donor Recovered (Three Month Ago)</td>
+                                <td>35</td>
+                                <td>24</td>
+                                <td>27</td>
+                                <td>22</td>
+                                <td>8</td>
+                                <td>16</td>
+                                <td>11</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Plasma Donor Recovered (Four Month Ago)</td>
+                                <td>25</td>
+                                <td>20</td>
+                                <td>24</td>
+                                <td>19</td>
+                                <td>6</td>
+                                <td>12</td>
+                                <td>12</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Next Supply</td>
+                                <td>85L  12hr</td>
+                                <td>64L  11hr</td>
+                                <td>62L  14hr</td>
+                                <td>52L  17hr</td>
+                                <td>11L  21hr</td>
+                                <td>22L  23hr</td>
+                                <td>31L  19hr</td>
+                                <td>24L  16hr</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="main4" class="main-item">
+                    <h1 class="main-h1">Blood Aviliability</h1>
+                    <h3 class="main-h3">Total Blood Avilable &nbsp; &nbsp; &nbsp; 378L</h3>
+                    <h3 class="main-h3">No. of Blood Donor Avilable &nbsp; &nbsp; &nbsp; 568</h3>
+                    <h3 class="main-h3">For Getting Blood Please Book Appointment</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Blood Group</th>
+                                <th>O+</th>
+                                <th>A+</th>
+                                <th>B+</th>
+                                <th>AB+</th>
+                                <th>O-</th>
+                                <th>A-</th>
+                                <th>B-</th>
+                                <th>AB-</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Person Avilable</td>
+                                <td>123</td>
+                                <td>97</td>
+                                <td>109</td>
+                                <td>76</td>
+                                <td>26</td>
+                                <td>56</td>
+                                <td>47</td>
+                                <td>34</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Avilable</td>
+                                <td>65L</td>
+                                <td>58L</td>
+                                <td>69L</td>
+                                <td>54L</td>
+                                <td>21L</td>
+                                <td>44L</td>
+                                <td>41L</td>
+                                <td>26L</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Needed Per Day</td>
+                                <td>70L</td>
+                                <td>57L</td>
+                                <td>61L</td>
+                                <td>57L</td>
+                                <td>15L</td>
+                                <td>32L</td>
+                                <td>36L</td>
+                                <td>21L</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Donor Recovered (One Month Ago)</td>
+                                <td>29</td>
+                                <td>19</td>
+                                <td>39</td>
+                                <td>19</td>
+                                <td>6</td>
+                                <td>16</td>
+                                <td>0</td>
+                                <td>11</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Donor Recovered (Two Month Ago)</td>
+                                <td>34</td>
+                                <td>34</td>
+                                <td>19</td>
+                                <td>16</td>
+                                <td>6</td>
+                                <td>12</td>
+                                <td>24</td>
+                                <td>9</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Donor Recovered (Three Month Ago)</td>
+                                <td>35</td>
+                                <td>24</td>
+                                <td>27</td>
+                                <td>22</td>
+                                <td>8</td>
+                                <td>16</td>
+                                <td>11</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td>Blood Donor Recovered (Four Month Ago)</td>
+                                <td>25</td>
+                                <td>20</td>
+                                <td>24</td>
+                                <td>19</td>
+                                <td>6</td>
+                                <td>12</td>
+                                <td>12</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>Next Supply</td>
+                                <td>85L  12hr</td>
+                                <td>64L  11hr</td>
+                                <td>62L  14hr</td>
+                                <td>52L  17hr</td>
+                                <td>11L  21hr</td>
+                                <td>22L  23hr</td>
+                                <td>31L  19hr</td>
+                                <td>24L  16hr</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec4">
+        <div class="swiper-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" ><img src="images/sec_4_1.png" alt=""></div>
+                    <div class="swiper-slide" ><img src="images/sec_4_2.png" alt=""></div>
+                    <div class="swiper-slide" ><img src="images/sec_4_3.png" alt=""></div>
+                    <div class="swiper-slide" ><img src="images/sec_4_4.png" alt=""></div>
+                    <div class="swiper-slide" ><img src="images/sec_4_5.png" alt=""></div>
+                    <div class="swiper-slide" ><img src="images/sec_4_6.png" alt=""></div>
+                </div>
+            </div>
+            <div id="story">
+                <a target="_blank" href="https://www.mygov.in/campaigns/positive-stories/?target=webview&type=campaign&nid=0">
+                    <img src="https://www.mygov.in/sites/all/themes/mygov/images/covid/covid-story.png" alt="">
+                </a>
+            </div>
+            <div id="mythbuster" class="swiper-wrapper">
+                <div class="swiper-slide" ><img src="images/myth1.jpg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth2.jpg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth3.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth4.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth5.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth6.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth7.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth8.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth9.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth10.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth11.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth12.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth13.jpeg" alt=""></div>
+                <div class="swiper-slide" ><img src="images/myth14.jpeg" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section id="sec5">
+        <h1>Why Choose Us</h1>
+        <div id="sect5-box">
+            <div class="sec5-img">
+                <img src="images/sec_5_1.png" alt="">
+            </div>
+            <div class="sec5-item">
+                <ul>
+                    <li>
+                        <img src="images/sec_5_2.png" alt="">
+                        <div>
+                            <h3>LARGE LABORATORY</h3>
+                            <p>AK Hospital+ has been the pioneer in bringing ground-breaking healthcare technologies to India.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/sec_5_3.png" alt="">
+                        <div>
+                            <h3>DETAILED SPECIALIST</h3>
+                            <p>Leveraging its vast medical expertise & technological advantage, AK Hospital+ has consistently delivered best in class clinical outcomes.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/sec_5_4.png" alt="">
+                        <div>
+                            <h3>4,000+ PHARMACIES</h3>
+                            <p>AK Pharmacy is India’s first, largest and most trusted branded pharmacy network, with over 4000 plus outlets covering the entire nation</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-top">
+            <div id="about" class="footer-top-item">
+                <h2>About Us</h2>
+                <img src="images/footer_1.png" alt="">
+                <p>Established by Dr xxxxx in 20xx, AK Healthcare has a robust presence across the healthcare ecosystem. From routine wellness & preventive health care to innovative life-saving treatments and diagnostic services, AK Hospital+ has touched more than 120 million lives from over 120 countries, offering the best clinical outcomes.</p>
+            </div>
+            <div id="services" class="footer-top-item">
+                <h2>Tags</h2>
+                <ul>
+                    <li><a class="btn" href="#">HEART</a></li>
+                    <li><a class="btn" href="#">SPINE</a></li>
+                    <li><a class="btn" href="#">ORTHOPAEDICS</a></li>
+                    <li><a class="btn" href="#">CANCER CARE</a></li>
+                    <li><a class="btn" href="#">NEUROSCIENCES</a></li>
+                    <li><a class="btn" href="#">TRANSPLANTS</a></li>
+                </ul>
+            </div>
+            <div id="contact" class="footer-top-item">
+                <h2>Contact Info</h2>
+                <p>AK Hospital+ has been a pioneer in bringing worldclass healthcare to the doorsteps of every Indian.</p>
+                <div>
+                    <a href="#"><p><img src="images/con_location.svg" alt="">Indian Institute of Technology Roorkee, Uttarakhand</p></a>
+                    <a href="tel:+919729813589"><p><img src="images/con_phone.svg" alt="">+91-9729813589</p></a>
+                    <a href="mailto:ashwani_k@iitr.ac.in"><p><img src="images/con_email.svg" alt="">ashwani_k@iitr.ac.in</p></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2021 | Ashwani Kumar 20111011 | All Rights Reserved &reg;
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 15,
+          stretch: 0,
+          depth: 200,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop:true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        }
+    });
+    </script>
+</body>
+</html>

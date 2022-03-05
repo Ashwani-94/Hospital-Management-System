@@ -1,0 +1,326 @@
+@media only screen and (max-width:1082px){
+    #sec2{
+        flex-direction: column;
+    }
+    #nav-box>ul li{
+        margin: 20px 5px;
+    }
+    #nav-box{
+        margin-left: -7px;
+    }
+    #logo{
+        margin-right: -4px;
+    }
+    .sec1-item {
+        margin: 0px 130px 70px 130px;
+    }
+    .footer-top-item{
+        margin-right:10px;
+        margin-left:10px;
+    }
+    #sec2-2{
+        margin: 0px auto;
+    }
+    body{
+        background-color: #ffd331;
+    }
+    .footer-top-item {
+        padding: 20px 24px;
+    }
+    #contact div a p img {
+        height: 23px;
+    }
+    #btn2-act div {
+        margin: 55px 0px;
+    }
+    #btn2-act div a {
+        margin: 3px 21px;
+    }
+    #btn1-act, #btn2-act {
+        width: 415px;
+    }
+    #btn1-act p {
+        padding: 8px 0px;
+        margin-bottom: 0px;
+    }
+    #book {
+        transform: translate(-50%,-50%);
+    }
+}
+@media only screen and (max-width:866px){
+    .footer-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sec5-img img {
+        display: none;
+    }
+    .sec3-box ul {
+        display: flex;
+        top: 0;
+        left: 0;
+    }
+    .sec3-box ul li {
+        list-style: none;
+        width: 115px;
+        height: 115px;
+    }
+    .sec3-box {
+        width: 535px;
+    }
+    .sec3-main {
+        width: 534px;
+    }
+    .sec3-box ul li {
+        margin: 10px 8px;
+    }
+    .sec3-box ul li h3 {
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    #ser2 img {
+        width: 51px;
+    }
+    #ser3 img {
+        width: 113px;
+    }
+    #ser4 img {
+        width: 128px;
+        margin-bottom: 10px;
+    }
+    #ser5 img {
+        width: 95px;
+    }
+    #navbar {
+        flex-direction: column;
+        height: 100px;
+    }
+    #nav-box>ul li {
+        margin: 15px 5px;
+    }
+    .sec1-item {
+        margin: 0px 19px 70px 19px;
+    }
+    .btn {
+        margin: 4px 6px;
+    }
+    .main-item {
+        padding: 100px 26px;
+    }
+    .main-h1 {
+        font-size: 2.3rem;
+    }
+    #sec5 h1::after{
+        display: none;
+    }
+    #sect5-box {
+        margin-left: -77px;
+    }
+    .sec5-item ul li{
+        margin-right: 25px;
+    }
+    .footer-top-item{
+        width: 88%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    #services ul li {
+        text-align: center;
+    }
+    #contact div {
+        text-align: center;
+    }
+}
+@media only screen and (max-width:556px){
+    #logo a span {
+        font-size: 20px;
+    }
+    #nav-box>ul li a {
+        font-size: 0.56rem;
+    }
+    #navbar {
+        height: 80px;
+    }
+    #nav-box>ul li {
+        margin: 5px 4px;
+    }
+    .sec1-item h1 {
+        font-size: 2rem;
+    }
+    .sec1-item p {
+        font-size: 0.9rem;
+    }
+    .sec1-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        padding: 8px 13px;
+        font-size: 1.2rem;
+        margin: 6px 4px;
+    }
+    .sec2-item {
+        padding: 33px 20px;
+    }
+    #sec2-1 img {
+        width: 200px;
+    }
+    #sec2-2 img {
+        width: 120px;
+    }
+    .sec2-item h2 {
+        font-size: 1.3rem;
+    }
+    #sec2-2::before {
+        border-bottom: solid transparent 40px;
+        border-right: solid #a0cff7 40px;
+        bottom: -1px;
+        left: -41px;
+    }
+    #sec2-2::after {
+        border-bottom: solid transparent 40px;
+        border-left: solid #a0cff7 40px;
+        bottom: -1px;
+        right: -40px;
+    }
+    #sec2-2 {
+        width: 178px;
+    }
+    .sec3-main {
+        width: 283px;
+    }
+    .sec3-box {
+        width: 285px;
+    }
+    .sec3-box ul li {
+        margin: 10px 3px;
+        width: 63px;
+        height: 100px;
+    }
+    .sec3-box ul li h3 {
+        font-size: 0.7rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    #ser5 img {
+        width: 53px;
+        margin-bottom: 10px;
+    }
+    #ser4 img {
+        width: 67px;
+        margin-bottom: 19px;
+    }
+    #ser3 img {
+        width: 76px;
+    }
+    #ser2 img {
+        width: 34px;
+    }
+    #story img {
+        width: 270px;
+    }
+    #sec5 h1 {
+        font-size: 31px;
+    }
+    .sec5-item ul li {
+        flex-direction: column;
+    }
+    .sec5-item ul li {
+        margin: 25px 12px;
+        margin-left: 51px;
+    }
+    .sec5-item ul li div {
+        text-align: center;
+    }
+    .sec5-item ul li div {
+        margin: 3px 0px
+    }
+    .sec5-item ul li div h3 {
+        font-size: 20px;
+    }
+    .sec5-item ul li div p {    
+        font-size: 0.9rem;
+    }
+    .footer-top-item {
+        width: 72%;
+    }
+    .main-item {
+        padding: 81px 5px;
+    }
+    .main-h1 {
+        font-size: 1.5rem;
+    }
+    .main-h3 {
+        font-size: 0.78rem;
+    }
+    #main1 table tbody tr td {
+        font-size: 0.6rem;
+    }
+    #main1 table thead tr th {
+        font-size: 0.7rem;
+    }
+    #main2 table tbody tr td {
+        font-size: 0.6rem;
+    }
+    #main2 table thead tr th {
+        font-size: 0.7rem;
+    }
+    #main3 table tbody tr td {
+        font-size: 0.6rem;
+    }
+    #main3 table thead tr th {
+        font-size: 0.7rem;
+    }
+    #main4 table tbody tr td {
+        font-size: 0.6rem;
+    }
+    #main4 table thead tr th {
+        font-size: 0.7rem;
+    }
+    #sec2-2 li pre {
+        font-size: 0.7rem;
+    }
+    #btn1-act, #btn2-act {
+        width: 264px;
+        font-size: 0.8rem;
+    }
+    #btn2-act h1 {
+        font-size: 1.48rem;
+    }
+    #btn2-act div a {
+        margin: 3px 3px;
+    }
+    #btn2-act div a img {
+        width: 106px;
+    }
+    #btn2-act div a:last-child img {
+        width: 131px;
+    }
+    .book-item form {
+        grid-gap: 1rem;
+    }
+    #book {
+        width: 337px;
+        padding: 31px;
+    }
+}
+@media only screen and (max-width:430px){
+    .book-item form {
+        grid-gap: 0.5rem;
+    }
+    #book {
+        width: 264px;
+        padding: 9px;
+    }
+    .book-item h1 {
+        font-size: 1.5rem;
+    }
+    #btn1-act, #btn2-act {
+        padding: 40px 5px 40px 5px;
+        font-size: 0.7rem;
+    }
+}
